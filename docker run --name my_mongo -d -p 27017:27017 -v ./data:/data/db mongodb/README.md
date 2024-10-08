@@ -1,0 +1,1 @@
+docker run --name my_mongo -d -p 27017:27017 -v ./data:/data/db mongodb/mongodb-community-server:6.0-ubi8
